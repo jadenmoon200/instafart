@@ -1,0 +1,220 @@
+.body {
+    padding-right: 50px;
+    padding-left: 50px;
+    max-width: 1200px;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(247, 245, 240);
+
+}
+
+
+.header {
+    padding-left:30px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    background-color: #CDE4AC;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    color: #002e1d;
+    align-items: center;
+
+
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 0 15px; /* Combine padding-top and padding-bottom into a shorthand property */
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.082); /* Adjust border shorthand property */
+    background-color: rgb(247, 245, 240);
+    list-style: none; /* This property is not applicable to the nav element */
+  }
+  
+  .nav-buttons {
+    display: flex;
+    gap: 10px;
+  }
+
+
+
+.signin {
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    background-color: #0E890E;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.login {
+    padding: 15px;
+    border: none;
+    background-color:transparent;
+    color: #00472C;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.logo-container {
+    margin-right: auto; /* This pushes the logo to the far left */
+}
+
+.logo {
+    max-height: 30px; /* Adjust the height as needed */
+    margin-right: 90px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+#search-bar {
+    
+    background-color: white;
+    width: 100%;
+    height: 55px;
+    border: solid 1px rgba(0, 0, 0, 0.283);
+    box-shadow: 0px 0px 10px rgba(150, 150, 150, 0.29);
+    border-radius: 50px;
+    font-size: 16px;
+    flex: 0 0 500px;
+    
+    
+         
+}
+
+button {
+    margin-left: 10px; /* Add some spacing between buttons */
+}
+
+
+
+.nav li {
+    display: inline-block;
+    align-items: center;
+    
+}
+
+.chattanooga {
+    font-size: larger;
+    color: #002e1d;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.chattanooga-logo { 
+    color: #0E890E;
+}
+
+.four { 
+    margin-top: -5px;
+    font-size: large;
+}
+
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows:auto;
+    gap: 24px;
+    
+}
+
+.store-div {
+   display: flex;
+   flex-direction: row;
+   padding: 12px;
+   font-size: smaller;
+   border-style: solid;
+   border-color: rgba(0, 0, 0, 0.084);
+   border-width: thin;
+   border-radius: 12px;
+   gap: 14px;
+}
+
+.store-image {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+
+.store-main-image { 
+    align-self: center;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.084);
+    border-width: thin;
+    border-radius: 12px;
+    
+}
+
+.button-div {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    color:rgb(226, 226, 226);
+
+
+}
+
+.ebt { 
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.088);
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+.ul { 
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+
+.app {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-color: #00472C;
+    border-radius: 12px;
+    align-items: center;
+    color:#eeffeee2;
+    padding-right: 20px;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+
+.app-asset {
+    width: 300px;
+    height: auto;
+}
+
+.QR-code {
+    border-radius: 12px;
+}
+
+
